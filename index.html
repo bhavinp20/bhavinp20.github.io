@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>My Portfolio</title>
+</head>
+
+<body>
+  <!-- Navigation Bar -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <!-- <div class="brand">
+          <a href="#hero"><h1><span>B</span>havin <span>P</span>atel</h1></a>
+        </div> -->
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li>
+              <a href="#hero" data-after="Home">Home</a>
+            </li>
+            <li>
+              <a href="#about" data-after="About">About</a>
+            </li>
+            <li>
+              <a href="#experience" data-after="Experience">Experience</a>
+            </li>
+            <li>
+              <a href="#projects" data-after="Projects">Projects</a>
+            </li>
+            <li>
+              <a href="#contact" data-after="Contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Navigation Bar -->
+
+
+  <!-- Hero Section -->
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1>Hello, I am <span></span></h1>
+        <h1>Bhavin Patel <span></span></h1>
+        <h1>Controls Engineer <span></span></h1>
+        <a href="#projects" type="button" class="cta">Portfolio</a>
+      </div>
+    </div>
+  </section>
+  <!-- End Hero Section -->
+
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="about container">
+      <div class="col-left">
+        <div class="about-img">
+          <img src="./img/self.jpeg" alt="img">
+        </div>
+      </div>
+      <div class="col-right">
+        <h1 class="section-title">Who Am I?</h1>
+        <h2>Controls Engineer</h2>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni exercitationem necessitatibus saepe atque
+          culpa, unde sed voluptatem ipsa, ea tempora blanditiis recusandae hic dicta iste similique dolor eius aut eos.
+        </p>
+        <!-- <a href="https://app.box.com/s/f5bi97yvcw5xob3n2f775aauz7jq01m0" download="Resume" type="button" class="cta">Download Resume</a> -->
+        <a href="./resume/Bhavinkumar Patel - Resume2.pdf" download="Bhavinkumar Patel - Resume" type="button"
+          class="cta">Download Resume</a>
+      </div>
+    </div>
+  </section>
+  <!-- End About Section -->
+
+
+  <!-- Experience Section -->
+  <section id="experience">
+    <div class="experience container">
+      <div class="experience-header">
+        <h1 class="section-title">Experience</h1>
+      </div>
+      <div class="timeline">
+        <ul>
+          <li class="date" data-date="2018 - Present">
+            <h2>Besnovo Inc.</h2>
+            <h2><span>Controls Specialist</span></h2>
+            <p>
+              Developed a motion control algorithm of the Automated Guided Vehicle (AGV) and implemented an indoor positing system using UWB sensors.
+              I have also developed and integrated sensor fusion algorithm (EKF) and improved the indoor position system accuracy.
+              Currently, I am researching various non-destructive techniques to measure paint thickness.
+            </p>
+          </li>
+
+          <li class="date" data-date="2017 - 2017">
+            <h2>Caterpillar Inc.</h2>
+            <h2><span>System Integration Engineer</span></h2>
+            <p>
+              Developed test procedures to validate the test environment and used MATLAB/Simulink to develop and verify software using hardware-in-loop (HIL) equipment (dSpace).
+              I have also created the Failure Mode Effects Analysis (FMEA) process for the drill rig machine.
+            </p>
+          </li>
+
+          <li class="date" data-date="2015 - 2016">
+            <h2>Rockwell Automation</h2>
+            <h2><span>Control Firmware Engineer</span></h2>
+            <p>
+              Designed and developed motion control algorithsm for AC induction motor drive using MATLAB/Simulink. I have worked on creating and excuting automated test plans and cases.
+            </p>
+          </li>
+
+          <li class="date" data-date="2014 - 2015">
+            <h2>Mortenson Construction</h2>
+            <h2><span>Electrical Supervisor I</span></h2>
+            <p>
+              Supervised sub-contractor personnel to ensure the contractor performs all work to agreed standards for safety, health and enivronment.
+              I have carried out inspection of electrical work according to as-build drawings.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <!-- End Experience Section -->
+
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="projects container">
+      <div class="projects-header">
+        <h1 class="section-title">Recent Projects</h1>
+      </div>
+      <div class="all-projects">
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Udacity - Self-Driving Car Nanodegree Project 1</h1>
+            <h2>PID Controller to Maneuver the Vehicle around the Track</h2>
+            <p>
+              Implemented a PID controller in C++ to compute the vehicle's appropriate steering angle to safely drive around the virtual track while keeping the vehicle center of the road.
+            </p>
+            <!-- <p>
+              I observed the vehicle's behaviour with P, I, and D's components after understanding what individual gains do then I chose P and D gains by trial and error method. <br>
+              When only the P gain was implemented, the vehicle started to correct the error, but there was a lot of oscillation and overshoot. After some duration, the car went off the road. When only I gain was applied, the vehicle started driving in circles. And lastly, when only D gain was used, the car started moving in a straight line and continue to do so without correcting the error. At some point, the vehicle went off the road.
+            </p> -->
+          </div>
+        </div>
+
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Udacity - Self-Driving Car Nanodegree Project 2</h1>
+            <h2>Kidnapped Vehicle</h2>
+            <p>
+              Implemented a 2 dimensional particle filter in C++. Observed the behaviour of the vehicle driving along with all of its landmark measuremnts in the simulator.
+              The map and some initial localization information (GPS) was provided.
+            </p>
+          </div>
+        </div>
+
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Udacity - Self-Driving Car Nanodegree Project 3</h1>
+            <h2>Extended Kalman Filter</h2>
+            <p>
+              Implemented the extended kalman filter in C++ to detect bicycle that traveled around the vehicle. Used a Kalman filter, lidar measurements, and radar measurments to track the bicycle's position and velocity.
+            </p>
+          </div>
+        </div>
+
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Udacity - Self-Driving Car Nanodegree Project 4</h1>
+            <h2>Behavioral Cloning</h2>
+            <p>
+              Built and trained a convolution neural network (CNN) in Keras to predict the vehicle's steering angles. I collected the data by driving the car in a simulator in a forward direction for three laps, and then in the opposite direction for another two laps. I used the OpenCV library to load the images and cropped the images 70px from the top and 25 px from the bottom to remove unwanted pixels. The data were split 80:20, meaning 80% training and 20% validation. The model architecture was based on NVIDIA's CNN. The model included RELU layers to introduce nonlinearity and used the Keras lambda layer to normalize the data. The model contained a dropout layer to reduce overfitting and used an adam optimizer.
+            </p>
+          </div>
+        </div>
+
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Udacity - Self-Driving Car Nanodegree Project 5</h1>
+            <h2>Traffic Sign Classifier</h2>
+            <p>
+              Built and trained a CNN model based on LeNet architecture to classify German traffic signs. The images were converted to grayscale to reduce the number of features, thus, reducing execution time, which achieved a final accuracy of 94.1%.
+              The model was developed using Python and TensorFlow.
+            </p>
+          </div>
+        </div>
+
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Udacity - Self-Driving Car Nanodegree Project 6</h1>
+            <h2>Advanced Lane Finding</h2>
+            <p>
+              Built a pipeline in Python to identify the lane boundaries in a video from a front-facing camera on a car. The libraries/dependencies that were used in this project are OpenCV, Matplotlib, and Numpy. The first step involved computing the camera calibration matrix and distortion coefficients using chessboard images. After obtaining the matrices, the distortion correction was applied to raw images. The second step involved creating a thresholded binary image using colour transform and gradients. The third step involved converting an image to Perspective Transform (Bird-eye view). The fourth step involved plotting a histogram of the bird-eye view binary image to decide which pixels belong to the left line and which belong to the right line. The fifth step involved implementing a sliding window algorithm to find and follow the lane lines up to the frame's top and then fit a polynomial. The final step involved measuring the curvature of the line lines.
+            </p>
+          </div>
+        </div>
+
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 7</h1>
+            <h2>Title 7</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima veniam rerum, dolor quae laboriosam
+              voluptatem! Voluptatem, nostrum. Alias reprehenderit earum eos architecto veritatis itaque sapiente, ipsam
+              repudiandae dolor, quasi doloribus!
+            </p>
+          </div>
+        </div>
+
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 8</h1>
+            <h2>Title 8</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima veniam rerum, dolor quae laboriosam
+              voluptatem! Voluptatem, nostrum. Alias reprehenderit earum eos architecto veritatis itaque sapiente, ipsam
+              repudiandae dolor, quasi doloribus!
+            </p>
+          </div>
+        </div>
+
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 9</h1>
+            <h2>Title 9</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima veniam rerum, dolor quae laboriosam
+              voluptatem! Voluptatem, nostrum. Alias reprehenderit earum eos architecto veritatis itaque sapiente, ipsam
+              repudiandae dolor, quasi doloribus!
+            </p>
+          </div>
+        </div>
+
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 10</h1>
+            <h2>Title 10</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima veniam rerum, dolor quae laboriosam
+              voluptatem! Voluptatem, nostrum. Alias reprehenderit earum eos architecto veritatis itaque sapiente, ipsam
+              repudiandae dolor, quasi doloribus!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Projects Section -->
+
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="contact container">
+      <div class="contact-header">
+        <h1 class="section-title">Get in touch</h1>
+      </div>
+    </div>
+  </section>
+  <!-- End Contact Section -->
+
+
+  <!-- Footer Section -->
+  <section id="footer">
+    <div class="footer container">
+      <!-- <div class="brand">
+        <h1><span>B</span>havin <span>P</span>atel</h1>
+      </div> -->
+      <div class="social-icon">
+        <div class="social-item">
+          <a href="https://twitter.com/bhavin88">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </div>
+        <div class="social-item">
+          <a href="https://www.linkedin.com/in/bhavinkumar-patel-054a7948/">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+        </div>
+        <div class="social-item">
+          <a href="https://github.com/bhavinp20">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+      </div>
+      <p>Copyright &#169; 2020 Bhavin Patel. All rights reserved</p>
+    </div>
+  </section>
+  <!-- End Footer Section -->
+
+  <script src="https://kit.fontawesome.com/eb4d20b23b.js" crossorigin="anonymous"></script>
+  <script src="app.js"></script>
+</body>
+</html>
